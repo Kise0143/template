@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hi, I'm Jefree Jay Garcia</h1>
+<h1 align="center">Yo, Jefree Desu</h1>
 
 <p align="center">
 BSIT Student • Web Developer • Game Developer (Godot) • Automation Builder (n8n)
