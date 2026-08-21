@@ -9,7 +9,7 @@ Pipeline • Cybersecurity • Network Security • Philippines
 </p>
 
 <p align="center">
-<a href="kisecybersecurity-portfolio.vercel.app">Portfolio</a>
+<a href="https://github.com/Kise0143">Github</a>
 </p>
 
 <hr style="border: none; border-top: 1px solid #21262d; margin: 2rem 0;" />
