@@ -1,6 +1,21 @@
 <p align="center">
   <img src="./assets/cyber-banner.svg" width="100%" alt="Cybersecurity Banner" />
 </p>
+<p align="center">
+  <img
+    src="./assets/cyber-banner.svg"
+    width="100%"
+    alt="Cybersecurity Banner"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="./assets/cyber-dashboard.svg"
+    width="100%"
+    alt="Kise0143 Cybersecurity Dashboard"
+  />
+</p>
 
 <h1 align="center">
   <code>Kise0143</code>
