@@ -15,3 +15,45 @@
 
   <!-- Background -->
   <rect width="800" height="260" fill="#050b1a" />
+
+  <!-- Main Title -->
+  <g>
+    <text x="400" y="130"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="22"
+          font-weight="900"
+          letter-spacing="1.5"
+          fill="#ffffff"
+          filter="url(#glow-violet)">
+      There is no patch for human stupidity
+    </text>
+  </g>
+
+  <!-- Red glitch layer -->
+  <g opacity="0.55">
+    <text x="398" y="131"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="22"
+          font-weight="900"
+          letter-spacing="1.5"
+          fill="#ef4444">
+      There is no patch for human stupidity
+    </text>
+  </g>
+
+  <!-- Blue glitch layer -->
+  <g opacity="0.55">
+    <text x="402" y="129"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="22"
+          font-weight="900"
+          letter-spacing="1.5"
+          fill="#3b82f6">
+      There is no patch for human stupidity
+    </text>
+  </g>
+
+</svg>
