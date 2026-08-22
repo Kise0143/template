@@ -126,10 +126,6 @@
     Kise
   </text>
 
-  <rect x="694" y="55" width="12" height="12" rx="2"
-        fill="#a855f7"
-        filter="url(#violet-glow)"/>
-
   <text x="550"
         y="115"
         text-anchor="middle"
