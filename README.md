@@ -51,3 +51,13 @@
 │ OBJECTIVE  : UNDERSTAND. TEST. DEFEND│
 └──────────────────────────────────────┘
 
+</td> <td width="50%" align="top">
+
+┌──────────────────────────────────────┐
+│ CONNECTION                           │
+│                                      │
+│ IP       : 127.0.0.1                 │
+│ HOST     : github.com/Kise0143       │
+│ UPTIME   : 24/7                      │
+│ FOCUS    : Learn • Build • Secure    │
+└──────────────────────────────────────┘
