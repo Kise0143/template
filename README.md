@@ -51,8 +51,7 @@
 │ OBJECTIVE  : UNDERSTAND. TEST. DEFEND│
 └──────────────────────────────────────┘
 
-</td> <td width="50%" align="top">
-
+</td> <td width="50%" valign="top">
 ┌──────────────────────────────────────┐
 │ CONNECTION                           │
 │                                      │
