@@ -1,7 +1,4 @@
 <p align="center">
-  <img src="./assets/cyber-banner.svg" width="100%" alt="Cybersecurity Banner" />
-</p>
-<p align="center">
   <img
     src="./assets/cyber-banner.svg"
     width="100%"
