@@ -38,10 +38,6 @@
 
 ## `> SYSTEM_STATUS`
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ```text
 ┌──────────────────────────────────────┐
 │ USER       : Kise0143                │
@@ -50,7 +46,6 @@
 │ STATUS     : LEARNING                │
 │ OBJECTIVE  : UNDERSTAND. TEST. DEFEND│
 └──────────────────────────────────────┘
-
 ┌──────────────────────────────────────┐
 │ CONNECTION                           │
 │                                      │
@@ -60,6 +55,9 @@
 │ FOCUS    : Learn • Build • Secure    │
 └──────────────────────────────────────┘
 
+<br> <!-- ====================================================== --> <!-- OPERATIONS --> <!-- ====================================================== -->
+> OPERATIONS
+🔴 RED TEAM
 ATTACK_SURFACE
 │
 ├── Reconnaissance
@@ -69,6 +67,7 @@ ATTACK_SURFACE
 ├── Exploitation Fundamentals
 └── Adversary Simulation
 
+🔵 BLUE TEAM
 DEFENSE_LAYER
 │
 ├── Log Analysis
@@ -77,7 +76,9 @@ DEFENSE_LAYER
 ├── Network Monitoring
 ├── System Hardening
 └── Threat Hunting
+<br> <!-- ====================================================== --> <!-- ARSENAL --> <!-- ====================================================== -->
 
+> ARSENAL
 OPERATING SYSTEMS    Linux
 SCRIPTING            Python / Bash
 VERSION CONTROL      Git / GitHub
@@ -85,6 +86,9 @@ LAB ENVIRONMENT      Virtual Machines
 NETWORKING           Packet Analysis
 INTEREST             Security / Detection / Automation
 
+<br> <!-- ====================================================== --> <!-- CURRENT MISSION --> <!-- ====================================================== -->
+
+> CURRENT_MISSION
 + Strengthen Linux fundamentals
 + Improve networking knowledge
 + Learn practical cybersecurity workflows
@@ -95,6 +99,8 @@ INTEREST             Security / Detection / Automation
 MISSION_STATUS: ACTIVE
 PROGRESS: ███████░░░░░░░░░░
 NEXT_LEVEL: PRACTICAL EXPERIENCE
+<br> <!-- ====================================================== --> <!-- SECURITY PRINCIPLE --> <!-- ====================================================== -->
+> SECURITY_PRINCIPLE
 
 01  Understand the system.
 
@@ -104,10 +110,7 @@ NEXT_LEVEL: PRACTICAL EXPERIENCE
 
 04  Understand how to defend it.
 
-<br> <!-- ====================================================== --> <!-- GITHUB ACTIVITY --> <!-- ====================================================== -->
 > ACTIVITY
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Kise0143&show_icons=true&hide_border=true&bg_color=00000000&title_color=a855f7&text_color=c9d1d9&icon_color=3b82f6" height="165" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kise0143&theme=transparent&hide_border=true" /> </p> <br> <!-- ====================================================== --> <!-- FOOTER --> <!-- ====================================================== --> <hr> <p align="center"> <code>&lt; ACCESS_GRANTED // KEEP_LEARNING /&gt;</code> </p> <p align="center"> <sub> SYSTEM ONLINE • SECURITY MODE ACTIVE </sub> </p> ```
 
-A couple of GitHub limitations are worth knowing: CSS like style="color:..." can be stripped, so the strongest visual effects should come from your SVG banner, badges, images, tables, and code blocks. The README itself should stay relatively clean.
 
-I’d also recommend that we don’t add fake tools just to make the profile look impressive. As you actually learn Wireshark, Nmap, Burp Suite, TryHackMe, Hack The Box, etc., we can unlock them visually in the ARSENAL section. That could make your README feel almost like a cybersecurity game profile.
