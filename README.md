@@ -1,8 +1,5 @@
-  <img
-    src="https://raw.githubusercontent.com/Kise0143/Kise0143/main/assets/cyber-banner.svg"
-    width="100%"
-    alt="Cybersecurity Banner"
-  />
+<p align="center">
+  <img src="./assets/cyber-banner.svg" width="100%" alt="Cybersecurity Banner" />
 </p>
 
 <h1 align="center">Yo, Jefree Desu</h1>
