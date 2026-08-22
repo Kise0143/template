@@ -1,0 +1,932 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1100 1380"
+     width="1100"
+     height="1380">
+
+  <defs>
+
+    <!-- BACKGROUND -->
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020611"/>
+      <stop offset="50%" stop-color="#050b17"/>
+      <stop offset="100%" stop-color="#020711"/>
+    </linearGradient>
+
+    <!-- PANEL -->
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#030914"/>
+    </linearGradient>
+
+    <!-- RED PANEL -->
+    <linearGradient id="red-panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16080c"/>
+      <stop offset="100%" stop-color="#050912"/>
+    </linearGradient>
+
+    <!-- BLUE PANEL -->
+    <linearGradient id="blue-panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061426"/>
+      <stop offset="100%" stop-color="#040914"/>
+    </linearGradient>
+
+    <!-- PURPLE PANEL -->
+    <linearGradient id="purple-panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120822"/>
+      <stop offset="100%" stop-color="#050914"/>
+    </linearGradient>
+
+    <!-- GRID -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0 L0 0 0 30"
+            fill="none"
+            stroke="#122039"
+            stroke-width="0.7"
+            opacity="0.5"/>
+    </pattern>
+
+    <!-- DOT GRID -->
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#263d60" opacity="0.4"/>
+    </pattern>
+
+    <!-- GLOWS -->
+    <filter id="green-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="violet-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="blue-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="red-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- ===================================================== -->
+  <!-- BACKGROUND                                            -->
+  <!-- ===================================================== -->
+
+  <rect width="1100" height="1380" fill="url(#background)"/>
+  <rect width="1100" height="1380" fill="url(#grid)" opacity="0.45"/>
+  <rect width="1100" height="1380" fill="url(#dots)" opacity="0.25"/>
+
+  <!-- TOP NEON LINE -->
+  <line x1="30" y1="18" x2="1070" y2="18"
+        stroke="#8b5cf6"
+        stroke-width="1"
+        opacity="0.5"/>
+
+  <path d="M25 50 L25 20 L60 20"
+        fill="none"
+        stroke="#9b5cff"
+        stroke-width="3"
+        filter="url(#violet-glow)"/>
+
+  <path d="M1075 50 L1075 20 L1040 20"
+        fill="none"
+        stroke="#9b5cff"
+        stroke-width="3"
+        filter="url(#violet-glow)"/>
+
+  <!-- ===================================================== -->
+  <!-- IDENTITY                                              -->
+  <!-- ===================================================== -->
+
+  <text x="550"
+        y="78"
+        text-anchor="middle"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="43"
+        font-weight="700"
+        fill="#f4f6ff"
+        filter="url(#violet-glow)">
+    Kise0143
+  </text>
+
+  <rect x="694" y="55" width="12" height="12" rx="2"
+        fill="#a855f7"
+        filter="url(#violet-glow)"/>
+
+  <text x="550"
+        y="115"
+        text-anchor="middle"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="17"
+        fill="#d5d9e2">
+    Cybersecurity Explorer  •  Red Team  •  Blue Team  •  Builder
+  </text>
+
+  <text x="550"
+        y="147"
+        text-anchor="middle"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="15"
+        fill="#39ff88">
+    defend()  •  detect()  •  analyze()  •  break_things_safely()
+  </text>
+
+  <!-- ===================================================== -->
+  <!-- SYSTEM STATUS                                         -->
+  <!-- ===================================================== -->
+
+  <text x="35" y="195"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="18"
+        font-weight="700"
+        fill="#39ff88">
+    &gt; SYSTEM_STATUS
+  </text>
+
+  <!-- LEFT PANEL -->
+
+  <rect x="30" y="215"
+        width="505" height="195"
+        rx="7"
+        fill="url(#panel)"
+        stroke="#299c53"
+        stroke-width="1.4"/>
+
+  <circle cx="50" cy="234" r="3" fill="#39ff88"/>
+  <circle cx="62" cy="234" r="3" fill="#245735"/>
+  <circle cx="74" cy="234" r="3" fill="#245735"/>
+
+  <g font-family="Consolas, Monaco, Courier New, monospace"
+     font-size="14">
+
+    <text x="55" y="270" fill="#39ff88">USER</text>
+    <text x="190" y="270" fill="#39ff88">:</text>
+    <text x="215" y="270" fill="#8df5af">Kise0143</text>
+
+    <text x="55" y="300" fill="#39ff88">ROLE</text>
+    <text x="190" y="300" fill="#39ff88">:</text>
+    <text x="215" y="300" fill="#8df5af">Cybersecurity Explorer</text>
+
+    <text x="55" y="330" fill="#39ff88">MODE</text>
+    <text x="190" y="330" fill="#39ff88">:</text>
+    <text x="215" y="330" fill="#ff4655">RED</text>
+    <text x="253" y="330" fill="#7c8ca3">//</text>
+    <text x="278" y="330" fill="#3da5ff">BLUE</text>
+
+    <text x="55" y="360" fill="#39ff88">STATUS</text>
+    <text x="190" y="360" fill="#39ff88">:</text>
+    <text x="215" y="360" fill="#39ff88">LEARNING</text>
+
+    <text x="55" y="390" fill="#39ff88">OBJECTIVE</text>
+    <text x="190" y="390" fill="#39ff88">:</text>
+    <text x="215" y="390" fill="#8df5af">
+      UNDERSTAND. TEST. DEFEND.
+    </text>
+
+  </g>
+
+  <!-- CONNECTION TITLE -->
+
+  <text x="570" y="195"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="18"
+        font-weight="700"
+        fill="#39ff88">
+    &gt; CONNECTION
+  </text>
+
+  <!-- CONNECTION PANEL -->
+
+  <rect x="560" y="215"
+        width="510" height="195"
+        rx="7"
+        fill="url(#panel)"
+        stroke="#31546b"
+        stroke-width="1.4"/>
+
+  <g font-family="Consolas, Monaco, Courier New, monospace"
+     font-size="14">
+
+    <text x="585" y="260" fill="#39ff88">IP</text>
+    <text x="690" y="260" fill="#c7ced9">127.0.0.1</text>
+
+    <text x="585" y="288" fill="#39ff88">HOST</text>
+    <text x="690" y="288" fill="#c7ced9">github.com/Kise0143</text>
+
+    <text x="585" y="316" fill="#39ff88">UPTIME</text>
+    <text x="690" y="316" fill="#c7ced9">24/7</text>
+
+    <text x="585" y="344" fill="#39ff88">FOCUS</text>
+    <text x="690" y="344" fill="#c7ced9">Learn • Build • Secure</text>
+
+  </g>
+
+  <!-- WAVEFORM -->
+
+  <polyline points="
+    585,380
+    615,380
+    625,365
+    633,392
+    642,371
+    650,380
+    677,380
+    687,373
+    694,388
+    704,378
+    728,380
+    742,360
+    750,397
+    760,378
+    780,380
+    803,380
+    815,370
+    825,387
+    835,380
+    862,380
+    875,352
+    885,398
+    895,378
+    918,380
+    935,366
+    944,391
+    954,380
+    1035,380"
+    fill="none"
+    stroke="#39ff88"
+    stroke-width="2"
+    opacity="0.9"/>
+
+  <circle cx="1035" cy="380" r="4"
+          fill="#39ff88"
+          filter="url(#green-glow)"/>
+
+  <!-- ===================================================== -->
+  <!-- OPERATIONS                                            -->
+  <!-- ===================================================== -->
+
+  <text x="35" y="455"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="18"
+        font-weight="700"
+        fill="#39ff88">
+    &gt; OPERATIONS
+  </text>
+
+  <!-- RED TEAM -->
+
+  <rect x="30" y="475"
+        width="505" height="225"
+        rx="7"
+        fill="url(#red-panel)"
+        stroke="#ff3347"
+        stroke-width="1.5"/>
+
+  <!-- CROSSHAIR -->
+
+  <circle cx="110" cy="565" r="38"
+          fill="none"
+          stroke="#ff3347"
+          stroke-width="2"/>
+
+  <circle cx="110" cy="565" r="18"
+          fill="none"
+          stroke="#ff3347"
+          stroke-width="2"/>
+
+  <circle cx="110" cy="565" r="5"
+          fill="#ff3347"
+          filter="url(#red-glow)"/>
+
+  <line x1="110" y1="515" x2="110" y2="545"
+        stroke="#ff3347" stroke-width="2"/>
+
+  <line x1="110" y1="585" x2="110" y2="615"
+        stroke="#ff3347" stroke-width="2"/>
+
+  <line x1="60" y1="565" x2="90" y2="565"
+        stroke="#ff3347" stroke-width="2"/>
+
+  <line x1="130" y1="565" x2="160" y2="565"
+        stroke="#ff3347" stroke-width="2"/>
+
+  <text x="185" y="515"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="22"
+        font-weight="700"
+        fill="#ff4655">
+    RED TEAM
+  </text>
+
+  <g font-family="Consolas, Monaco, Courier New, monospace"
+     font-size="13"
+     fill="#e2e8f0">
+
+    <text x="190" y="550">◉ Reconnaissance</text>
+    <text x="190" y="578">◉ Enumeration</text>
+    <text x="190" y="606">◉ Web Security</text>
+    <text x="190" y="634">◉ Vulnerability Research</text>
+    <text x="190" y="662">◉ Adversary Simulation</text>
+
+  </g>
+
+  <line x1="380" y1="515" x2="380" y2="670"
+        stroke="#8b2730"
+        opacity="0.8"/>
+
+  <g font-family="Consolas, Monaco, Courier New, monospace"
+     font-size="12"
+     fill="#ff626d">
+
+    <text x="400" y="545">Think like an</text>
+    <text x="400" y="566">adversary.</text>
+
+    <text x="400" y="600">Find weaknesses.</text>
+    <text x="400" y="621">Test safely.</text>
+
+    <text x="400" y="655">Improve defense.</text>
+
+  </g>
+
+  <!-- BLUE TEAM -->
+
+  <rect x="560" y="475"
+        width="510" height="225"
+        rx="7"
+        fill="url(#blue-panel)"
+        stroke="#2987ff"
+        stroke-width="1.5"/>
+
+  <!-- SHIELD -->
+
+  <path d="
+    M640 520
+    L680 535
+    L676 575
+    C674 607 655 625 640 636
+    C625 625 606 607 604 575
+    L600 535
+    Z"
+    fill="#071a30"
+    stroke="#3da5ff"
+    stroke-width="3"
+    filter="url(#blue-glow)"/>
+
+  <path d="
+    M640 548
+    L660 556
+    L658 576
+    C656 590 648 600 640 606
+    C632 600 624 590 622 576
+    L620 556
+    Z"
+    fill="#3da5ff"
+    opacity="0.55"/>
+
+  <text x="705" y="515"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="22"
+        font-weight="700"
+        fill="#3da5ff">
+    BLUE TEAM
+  </text>
+
+  <g font-family="Consolas, Monaco, Courier New, monospace"
+     font-size="13"
+     fill="#e2e8f0">
+
+    <text x="705" y="550">◉ Log Analysis</text>
+    <text x="705" y="578">◉ Threat Detection</text>
+    <text x="705" y="606">◉ Incident Response</text>
+    <text x="705" y="634">◉ System Hardening</text>
+    <text x="705" y="662">◉ Threat Hunting</text>
+
+  </g>
+
+  <line x1="925" y1="515" x2="925" y2="670"
+        stroke="#174b7d"
+        opacity="0.8"/>
+
+  <g font-family="Consolas, Monaco, Courier New, monospace"
+     font-size="12"
+     fill="#4db4ff">
+
+    <text x="945" y="545">Detect early.</text>
+    <text x="945" y="575">Respond fast.</text>
+    <text x="945" y="605">Harden systems.</text>
+    <text x="945" y="635">Defend smarter.</text>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- ARSENAL                                               -->
+  <!-- ===================================================== -->
+
+  <text x="35" y="750"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="18"
+        font-weight="700"
+        fill="#39ff88">
+    &gt; ARSENAL
+  </text>
+
+  <rect x="30" y="770"
+        width="1040" height="150"
+        rx="7"
+        fill="url(#panel)"
+        stroke="#28425d"
+        stroke-width="1.3"/>
+
+  <!-- TOOL ITEMS -->
+
+  <g font-family="Consolas, Monaco, Courier New, monospace"
+     text-anchor="middle">
+
+    <!-- Linux -->
+    <circle cx="85" cy="815" r="23"
+            fill="#111827"
+            stroke="#f6c344"/>
+    <text x="85" y="822" font-size="15" fill="#f6c344">LX</text>
+    <text x="85" y="860" font-size="12" fill="#dce4ef">Linux</text>
+
+    <!-- Python -->
+    <circle cx="190" cy="815" r="23"
+            fill="#111827"
+            stroke="#3da5ff"/>
+    <text x="190" y="822" font-size="15" fill="#f5d547">PY</text>
+    <text x="190" y="860" font-size="12" fill="#dce4ef">Python</text>
+
+    <!-- Bash -->
+    <circle cx="295" cy="815" r="23"
+            fill="#111827"
+            stroke="#dce4ef"/>
+    <text x="295" y="822" font-size="15" fill="#dce4ef">$_</text>
+    <text x="295" y="860" font-size="12" fill="#dce4ef">Bash</text>
+
+    <!-- Git -->
+    <circle cx="400" cy="815" r="23"
+            fill="#111827"
+            stroke="#f04b35"/>
+    <text x="400" y="822" font-size="13" fill="#f04b35">GIT</text>
+    <text x="400" y="860" font-size="12" fill="#dce4ef">Git</text>
+
+    <!-- GitHub -->
+    <circle cx="505" cy="815" r="23"
+            fill="#111827"
+            stroke="#dce4ef"/>
+    <text x="505" y="822" font-size="13" fill="#ffffff">GH</text>
+    <text x="505" y="860" font-size="12" fill="#dce4ef">GitHub</text>
+
+    <!-- VS Code -->
+    <circle cx="610" cy="815" r="23"
+            fill="#111827"
+            stroke="#2987ff"/>
+    <text x="610" y="822" font-size="13" fill="#2987ff">VS</text>
+    <text x="610" y="860" font-size="12" fill="#dce4ef">VS Code</text>
+
+    <!-- Wireshark -->
+    <circle cx="715" cy="815" r="23"
+            fill="#111827"
+            stroke="#22d3ee"/>
+    <text x="715" y="822" font-size="13" fill="#22d3ee">WS</text>
+    <text x="715" y="860" font-size="12" fill="#dce4ef">Wireshark</text>
+
+    <!-- VirtualBox -->
+    <circle cx="820" cy="815" r="23"
+            fill="#111827"
+            stroke="#75a7ff"/>
+    <text x="820" y="822" font-size="13" fill="#75a7ff">VB</text>
+    <text x="820" y="860" font-size="12" fill="#dce4ef">VirtualBox</text>
+
+    <!-- Burp -->
+    <circle cx="925" cy="815" r="23"
+            fill="#111827"
+            stroke="#ff7139"/>
+    <text x="925" y="822" font-size="13" fill="#ff7139">BS</text>
+    <text x="925" y="860" font-size="12" fill="#dce4ef">Burp</text>
+
+    <!-- Nmap -->
+    <circle cx="1020" cy="815" r="23"
+            fill="#111827"
+            stroke="#7dd3fc"/>
+    <text x="1020" y="822" font-size="12" fill="#7dd3fc">NM</text>
+    <text x="1020" y="860" font-size="12" fill="#dce4ef">Nmap</text>
+
+  </g>
+
+  <line x1="55" y1="880" x2="1045" y2="880"
+        stroke="#24354c"/>
+
+  <text x="55" y="902"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="12"
+        fill="#39ff88">
+    OS: Linux
+  </text>
+
+  <text x="250" y="902"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="12"
+        fill="#39ff88">
+    SHELL: Bash
+  </text>
+
+  <text x="440" y="902"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="12"
+        fill="#39ff88">
+    SCRIPTING: Python
+  </text>
+
+  <text x="680" y="902"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="12"
+        fill="#39ff88">
+    VERSION CONTROL: Git / GitHub
+  </text>
+
+  <!-- ===================================================== -->
+  <!-- CURRENT MISSION                                       -->
+  <!-- ===================================================== -->
+
+  <text x="35" y="970"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="18"
+        font-weight="700"
+        fill="#39ff88">
+    &gt; CURRENT_MISSION
+  </text>
+
+  <rect x="30" y="990"
+        width="495" height="210"
+        rx="7"
+        fill="url(#panel)"
+        stroke="#299c53"
+        stroke-width="1.3"/>
+
+  <g font-family="Consolas, Monaco, Courier New, monospace"
+     font-size="13">
+
+    <text x="55" y="1030" fill="#39ff88">
+      [✓] Strengthen Linux fundamentals
+    </text>
+
+    <text x="55" y="1062" fill="#39ff88">
+      [✓] Improve networking knowledge
+    </text>
+
+    <text x="55" y="1094" fill="#39ff88">
+      [✓] Build practical cybersecurity labs
+    </text>
+
+    <text x="55" y="1126" fill="#b9c8b8">
+      [ ] Build security-focused projects
+    </text>
+
+    <text x="55" y="1158" fill="#b9c8b8">
+      [ ] Practice ethical penetration testing
+    </text>
+
+  </g>
+
+  <!-- MOUNTAIN / NETWORK DECORATION -->
+
+  <polyline points="
+    260,1180
+    300,1150
+    325,1164
+    355,1115
+    390,1140
+    420,1090
+    455,1132
+    500,1100"
+    fill="none"
+    stroke="#39ff88"
+    stroke-width="1"
+    opacity="0.35"/>
+
+  <!-- ===================================================== -->
+  <!-- PROJECT VAULT                                         -->
+  <!-- ===================================================== -->
+
+  <text x="555" y="970"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="18"
+        font-weight="700"
+        fill="#39ff88">
+    &gt; PROJECT_VAULT
+  </text>
+
+  <!-- SECURITY LAB -->
+
+  <rect x="550" y="990"
+        width="520" height="62"
+        rx="6"
+        fill="url(#purple-panel)"
+        stroke="#a855f7"
+        stroke-width="1.3"/>
+
+  <rect x="565" y="1002"
+        width="42" height="38"
+        rx="4"
+        fill="#170a2d"
+        stroke="#a855f7"/>
+
+  <text x="586" y="1028"
+        text-anchor="middle"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="13"
+        fill="#c56cff">
+    LAB
+  </text>
+
+  <text x="625" y="1017"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="15"
+        fill="#c56cff">
+    Security Lab
+  </text>
+
+  <text x="625" y="1038"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#c3c9d5">
+    Personal environment for networking, Linux and security labs.
+  </text>
+
+  <text x="975" y="1017"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#c56cff">
+    STATUS
+  </text>
+
+  <text x="975" y="1038"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="11"
+        fill="#c56cff">
+    BUILDING
+  </text>
+
+  <!-- LOG ANALYZER -->
+
+  <rect x="550" y="1060"
+        width="520" height="62"
+        rx="6"
+        fill="url(#blue-panel)"
+        stroke="#2987ff"
+        stroke-width="1.3"/>
+
+  <circle cx="586" cy="1085"
+          r="14"
+          fill="none"
+          stroke="#3da5ff"
+          stroke-width="2"/>
+
+  <line x1="596" y1="1095" x2="608" y2="1107"
+        stroke="#3da5ff"
+        stroke-width="3"/>
+
+  <text x="625" y="1087"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="15"
+        fill="#3da5ff">
+    Log Analyzer
+  </text>
+
+  <text x="625" y="1107"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#c3c9d5">
+    Parse logs and identify unusual activity.
+  </text>
+
+  <text x="975" y="1087"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#3da5ff">
+    STATUS
+  </text>
+
+  <text x="975" y="1107"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="11"
+        fill="#3da5ff">
+    PLANNED
+  </text>
+
+  <!-- RED VS BLUE -->
+
+  <rect x="550" y="1130"
+        width="520" height="62"
+        rx="6"
+        fill="url(#red-panel)"
+        stroke="#ff3347"
+        stroke-width="1.3"/>
+
+  <line x1="572" y1="1147" x2="600" y2="1175"
+        stroke="#ff4655"
+        stroke-width="3"/>
+
+  <line x1="600" y1="1147" x2="572" y2="1175"
+        stroke="#ff4655"
+        stroke-width="3"/>
+
+  <text x="625" y="1157"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="15"
+        fill="#ff4655">
+    Red vs Blue Lab
+  </text>
+
+  <text x="625" y="1178"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#c3c9d5">
+    Offensive simulation against defensive monitoring.
+  </text>
+
+  <text x="975" y="1157"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#ff4655">
+    STATUS
+  </text>
+
+  <text x="975" y="1178"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="11"
+        fill="#ff4655">
+    PLANNED
+  </text>
+
+  <!-- ===================================================== -->
+  <!-- SECURITY PRINCIPLE                                    -->
+  <!-- ===================================================== -->
+
+  <text x="35" y="1250"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="18"
+        font-weight="700"
+        fill="#39ff88">
+    &gt; SECURITY_PRINCIPLE
+  </text>
+
+  <rect x="30" y="1270"
+        width="495" height="75"
+        rx="7"
+        fill="url(#panel)"
+        stroke="#31546b"
+        stroke-width="1.2"/>
+
+  <g font-family="Consolas, Monaco, Courier New, monospace"
+     font-size="11">
+
+    <text x="55" y="1295" fill="#39ff88">01</text>
+    <text x="90" y="1295" fill="#d7dde7">Understand the system.</text>
+
+    <text x="55" y="1317" fill="#39ff88">02</text>
+    <text x="90" y="1317" fill="#d7dde7">Understand how it breaks.</text>
+
+    <text x="285" y="1295" fill="#39ff88">03</text>
+    <text x="320" y="1295" fill="#d7dde7">Detect it.</text>
+
+    <text x="285" y="1317" fill="#39ff88">04</text>
+    <text x="320" y="1317" fill="#d7dde7">Defend it.</text>
+
+  </g>
+
+  <!-- ACTIVITY -->
+
+  <text x="555" y="1250"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="18"
+        font-weight="700"
+        fill="#39ff88">
+    &gt; ACTIVITY
+  </text>
+
+  <rect x="550" y="1270"
+        width="520" height="75"
+        rx="7"
+        fill="url(#panel)"
+        stroke="#31546b"
+        stroke-width="1.2"/>
+
+  <!-- DONUT -->
+
+  <circle cx="600" cy="1307"
+          r="25"
+          fill="none"
+          stroke="#171c40"
+          stroke-width="9"/>
+
+  <path d="
+    M600 1282
+    A25 25 0 1 1 578 1319"
+    fill="none"
+    stroke="#8b5cf6"
+    stroke-width="9"
+    filter="url(#violet-glow)"/>
+
+  <text x="600" y="1311"
+        text-anchor="middle"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#ffffff">
+    DEV
+  </text>
+
+  <!-- ACTIVITY BLOCKS -->
+
+  <g fill="#5828b8">
+
+    <rect x="655" y="1288" width="12" height="12" rx="2"/>
+    <rect x="672" y="1288" width="12" height="12" rx="2"/>
+    <rect x="689" y="1288" width="12" height="12" rx="2"/>
+    <rect x="706" y="1288" width="12" height="12" rx="2"/>
+    <rect x="723" y="1288" width="12" height="12" rx="2"/>
+    <rect x="740" y="1288" width="12" height="12" rx="2"/>
+    <rect x="757" y="1288" width="12" height="12" rx="2"/>
+    <rect x="774" y="1288" width="12" height="12" rx="2"/>
+    <rect x="791" y="1288" width="12" height="12" rx="2"/>
+    <rect x="808" y="1288" width="12" height="12" rx="2"/>
+    <rect x="825" y="1288" width="12" height="12" rx="2"/>
+    <rect x="842" y="1288" width="12" height="12" rx="2"/>
+    <rect x="859" y="1288" width="12" height="12" rx="2"/>
+    <rect x="876" y="1288" width="12" height="12" rx="2"/>
+
+  </g>
+
+  <g fill="#7c3aed">
+
+    <rect x="655" y="1305" width="12" height="12" rx="2"/>
+    <rect x="689" y="1305" width="12" height="12" rx="2"/>
+    <rect x="706" y="1305" width="12" height="12" rx="2"/>
+    <rect x="740" y="1305" width="12" height="12" rx="2"/>
+    <rect x="757" y="1305" width="12" height="12" rx="2"/>
+    <rect x="791" y="1305" width="12" height="12" rx="2"/>
+    <rect x="808" y="1305" width="12" height="12" rx="2"/>
+    <rect x="842" y="1305" width="12" height="12" rx="2"/>
+    <rect x="859" y="1305" width="12" height="12" rx="2"/>
+    <rect x="893" y="1305" width="12" height="12" rx="2"/>
+
+  </g>
+
+  <text x="930" y="1299"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#8ea3ba">
+    BUILDING.
+  </text>
+
+  <text x="930" y="1318"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#8ea3ba">
+    LEARNING.
+  </text>
+
+  <text x="930" y="1337"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="10"
+        fill="#8ea3ba">
+    SECURING.
+  </text>
+
+  <!-- ===================================================== -->
+  <!-- FOOTER                                                -->
+  <!-- ===================================================== -->
+
+  <line x1="70" y1="1363" x2="380" y2="1363"
+        stroke="#26405d"/>
+
+  <line x1="720" y1="1363" x2="1030" y2="1363"
+        stroke="#26405d"/>
+
+  <text x="550" y="1368"
+        text-anchor="middle"
+        font-family="Consolas, Monaco, Courier New, monospace"
+        font-size="12"
+        fill="#39ff88">
+    &lt; ACCESS_GRANTED // KEEP_LEARNING /&gt;
+  </text>
+
+</svg>
