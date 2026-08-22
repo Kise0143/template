@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/cyber-banner.svg" width="100%" alt="Cybersecurity Banner">
+</p>
+
 <h1 align="center">Yo, Jefree Desu</h1>
 
 <p align="center">
